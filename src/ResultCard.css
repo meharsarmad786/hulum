@@ -1,0 +1,36 @@
+.resultCard {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info{
+  padding: 10px;
+  margin-left: 15px;
+  color: white;
+}
+
+.release_date{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.controls{
+  padding: 20px;
+  display: flex;
+
+}
+
+.controls > button{
+  background-color: #0080FF;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.controls > button:hover{
+  background-color: white;
+  color: #0080FF;
+}

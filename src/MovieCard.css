@@ -1,0 +1,30 @@
+.movieCard{
+  color: white;
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+  transition: transform 0.2s ease-in;
+}
+
+.movieCard_stats{
+  display: none;
+}
+
+.movieCard:hover > .movieCard_stats{
+  display: inline-flex !important;
+}
+
+.movieCard:hover{
+  transform: scale(1.06);
+}
+
+.movieCard > img{
+  height: 300px;
+  object-fit: contain;
+  width: 450px;
+}
+
+.movieCard > h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

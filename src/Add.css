@@ -1,0 +1,25 @@
+.add {
+  padding: 50px;
+  max-width: 600px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.add .input_wrap input {
+  width: 120%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.results {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.results li {
+  list-style: none;
+}

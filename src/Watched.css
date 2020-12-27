@@ -1,0 +1,40 @@
+.watched{
+  color: white;
+}
+
+.watched_data{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+
+.movie_count {
+  display: block;
+  margin-left: 20px;
+  background-color: #0080FF;
+  padding: 5px 15px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 999px;
+  color: #032541;
+}
+
+.movie_grid > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie_grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.watched .no-movies {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
